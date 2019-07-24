@@ -1,0 +1,263 @@
+html {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+button:focus {
+    outline: none;
+}
+
+.header {
+    width: 100%;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../images/phone.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+    margin-bottom: 68px;
+    text-decoration: none;
+}
+
+.link {
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 36px;
+    list-style-type: none;
+    margin-bottom: 120px;
+}
+
+.log {
+    font-size: 14px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .link_up {
+    font-size: 14px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: rgba(26, 25, 21, 0);
+  }
+
+  .reg {
+    padding: 10px 16px;
+    border: 2px solid transparent;
+    border-radius: 18px;
+}
+
+.reg:hover,
+.reg:focus {
+    border-color: #fff;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    text-decoration: none !important;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white; 
+    font-weight: 700;
+    margin-bottom: 38px;
+}
+.logo_item {
+    margin-bottom: 38px;
+  }
+.holiday {
+    font-size: 29px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .perfect {
+    font-size: 18px;
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+  }
+  .finder {
+    width: 281px;
+    height: 41px;
+    font-size: 14px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid #fff;
+  }
+  .change:hover .finder,
+  .change:focus .finder {
+  background-color: rgb(255, 78, 80);
+}
+.partner {
+    font-size: 22px;
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    margin: 0 auto;
+    margin-bottom: 14px;
+    width: 270px;
+  }
+  .item {
+    margin: 0 auto;
+  }
+  .layer {
+    border-radius: 50%;
+  }
+  .peoples {
+    font-size: 14px;
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  .about {
+    font-size: 14px;
+    line-height: 17px;
+    color: #666;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 28px;
+  }
+  .Ellipse {
+    position: relative;
+    width: 122px;
+    height: 122px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .Ellipse__icon {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .Ellipse1 {
+    background-image: url(../icons/1.png);
+    background-color: #ff4e50;
+  }
+  .Ellipse2 {
+    background-image: url(../icons/2.png);
+    background-color: #ffa507;
+  }
+  .Ellipse3 {
+    background-image: url(../icons/3.png);
+    background-color: #1cd7ad;
+  }
+  .Ellipse4 {
+    background-image: url(../icons/4.png);
+    background-color: #4e73db;
+  }
+  .other {
+    width: 281px;
+    height: 41px;
+    font-size: 14px;
+    color: red;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 2px solid red;
+  }
+  .other_but:hover .other,
+  .change:focus .other {
+    background-color: red;
+    color: #fff;
+}
+@media (min-width: 768px) {
+    .header {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../images/tablet.jpg);
+      height: 700px;
+    }
+
+    .logo_item {
+      margin-top: 32px;
+    }
+    .reference {
+      margin: 0 auto;
+      padding: 0;
+      margin-bottom: 130px;
+    }
+
+    .link {
+      padding: 0;
+      margin: 0;
+    }
+  
+    .perfect {
+      width: 100%;
+      margin-bottom: 32px;
+      font-size: 24px;
+    }
+    .holiday {
+      font-size: 52px;
+      margin: 0 auto;
+      margin-bottom: 40px;
+    }
+    .finder {
+      margin: 0 auto;
+      display: block;
+      width: 228px;
+    }
+  
+    /* MAIN */
+    .items {
+      width: 570px;
+    }
+    .partner {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .item {
+      margin-bottom: 0;
+    }
+    .item:nth-of-type(odd) {
+      margin-bottom: 62px; 
+    }
+     .comand {
+      margin-bottom: 38px;
+    }
+    .other {
+      margin: 0 auto;
+      width: 194px;
+      height: 40px;
+    }
+  }
+  @media (min-width: 992px) {
+    .header {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../images/header.png);
+    }
+    .items {
+      width: 920px;
+    }
+    .other {
+      margin-bottom: 30px;
+    }
+    }
